@@ -17,7 +17,7 @@ import shutil
 from datetime import datetime
 from pathlib import Path
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
 INT = VAULT / "_intermediate"
 OVERRIDE = VAULT / "_classify_overrides.json"
 

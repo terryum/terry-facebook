@@ -28,7 +28,7 @@ from fbpull.cli import _bootstrap  # noqa: E402
 
 _bootstrap(no_llm=False)
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
 INT = VAULT / "_intermediate"
 OUT_PATH = INT / "leaf_label_5a.json"
 MODEL = "claude-haiku-4-5"

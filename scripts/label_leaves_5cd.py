@@ -30,7 +30,7 @@ from fbpull.cli import _bootstrap  # noqa: E402
 
 _bootstrap(no_llm=True)
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
 INT = VAULT / "_intermediate"
 OVR_PATH = VAULT / "_classify_overrides.json"
 
