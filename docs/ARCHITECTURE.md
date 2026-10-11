@@ -6,14 +6,14 @@
 
 | Repo | 가시성 | 내용 |
 |------|--------|------|
-| `terry-facebook-pull` | **공개** | Python 코드, 문서, 가짜 fixture 만 |
+| `terry-facebook` | **공개** | Python 코드, 문서, 가짜 fixture 만 |
 | `terry-obsidian` | **비공개** | 모든 실제 데이터: raw, intermediate, Archive, Synthesized |
 
 이 분리는 `.gitignore` 와 디렉터리 배치로 강제한다. 코드는 `OBSIDIAN_VAULT` 환경변수로 vault 경로를 받아 거기에만 쓴다 — 코드 레포 내부에는 어떤 데이터도 떨어뜨리지 않는다.
 
 ## 2. Directory layout
 
-### `terry-facebook-pull/` (코드 레포)
+### `terry-facebook/` (코드 레포)
 
 ```
 src/fbpull/
@@ -221,7 +221,7 @@ tags: [facebook, synthesized, <primary_tag>]
 
 배포 전 검증 명령:
 ```bash
-git -C terry-facebook-pull ls-files | grep -E '\.(jsonl|npy|env)$'  # 결과 비어야 함
+git -C terry-facebook ls-files | grep -E '\.(jsonl|npy|env)$'  # 결과 비어야 함
 ```
 
 ## 6. Future hooks

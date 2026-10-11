@@ -22,7 +22,7 @@ import shutil
 from datetime import datetime
 from pathlib import Path
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/context/terry-obsidian/vault/Private/Facebook")
 OVERRIDE = VAULT / "_classify_overrides.json"
 
 # 26 posts → 학계

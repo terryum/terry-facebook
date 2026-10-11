@@ -24,7 +24,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/context/terry-obsidian/vault/Private/Facebook")
 OVR_PATH = VAULT / "_classify_overrides.json"
 CLUSTERS_PATH = VAULT / "_intermediate" / "05_clusters.json"
 

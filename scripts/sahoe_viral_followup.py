@@ -14,7 +14,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-OVR_PATH = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook/_classify_overrides.json")
+OVR_PATH = Path("/Users/terrytaewoongum/Codes/personal/context/terry-obsidian/vault/Private/Facebook/_classify_overrides.json")
 
 VIRAL_PIDS = [
     "1491928964-21d52c7415",  # #boycottunited (united airlines passenger)

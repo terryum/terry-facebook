@@ -31,7 +31,7 @@ from fbpull.cli import _bootstrap  # noqa: E402
 
 _bootstrap(no_llm=False)
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/context/terry-obsidian/vault/Private/Facebook")
 INT = VAULT / "_intermediate"
 MODEL = "claude-sonnet-4-6"
 

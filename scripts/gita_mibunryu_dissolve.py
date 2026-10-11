@@ -15,7 +15,7 @@ from pathlib import Path
 
 import numpy as np
 
-VAULT = Path("/Users/terrytaewoongum/Codes/personal/knowledge/terry-obsidian/vault/Private/Facebook")
+VAULT = Path("/Users/terrytaewoongum/Codes/personal/context/terry-obsidian/vault/Private/Facebook")
 INT = VAULT / "_intermediate"
 OVR_PATH = VAULT / "_classify_overrides.json"
 TAX_PATH = VAULT / "_taxonomy.md"

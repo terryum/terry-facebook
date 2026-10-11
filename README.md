@@ -105,7 +105,7 @@ Anthropic + OpenAI 임베딩 호출은 모두 캐시됩니다 (`vault/Private/Fa
 
 ## Privacy
 
-- 이 레포 (`terry-facebook-pull`): **공개**. 코드/문서만. `.gitignore` 가 데이터/시크릿 차단
+- 이 레포 (`terry-facebook`): **공개**. 코드/문서만. `.gitignore` 가 데이터/시크릿 차단
 - 옵시디언 vault (`terry-obsidian`): **비공개**. raw/intermediate/Archive/Synthesized 모두 거기 보관
 
 테스트 fixture (`tests/fixtures/`) 는 가짜 글로만 구성됩니다. 실제 사용자 글은 절대 이 레포에 들어가지 않습니다.
